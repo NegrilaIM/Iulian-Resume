@@ -24,7 +24,8 @@ export const RightSide = function ({data}) {
 
            {
             data?.skills?.map(({name, rate}) => (
-              <RatingLevel name={name}
+              <RatingLevel key={name}
+                           name={name}
                            rate={rate} />
             ))
            }
