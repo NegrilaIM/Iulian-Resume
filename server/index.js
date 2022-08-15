@@ -13,7 +13,8 @@ app.get('/api/resume/:name', function (req, res) {
         email:'negrilaim@gmail.com',
         about: {
             title: 'ABOUT ME',
-            details: '<i>"The minute you choose to do what you really want to do, it s a different kind of life"<i>.<br/>The above quote of B. Fuller is describing the main reason for which  I usually open the laptop lid early in the morning.'
+            details: `<i>"Just don't give up trying to do what you really want to do. Where there is love and inspiration, I don't think you can go wrong."</i><br>
+            This quote perfectly describes my connection to the IT field`
         },
 
         work: {
@@ -96,14 +97,14 @@ app.get('/api/resume/:name', function (req, res) {
 
         educations: {
         title:'EDUCATION',
-        details:`IT SCHOOL<br/>2022<br/>Study Program: Frontend Developer<br/><br/>
-                 UNIVERSITY OF LINCOLN<br/>2016-2020<br/>Study Program:Electrical-Electronic in cars<br/><br/>
-                 TECHNOLOGIC HIGHSCHOOL<br/>2012-2016<br/>Study Program:Economy`
+        details:`<b>IT SCHOOL</b><br/>2022<br/>Study Program: Frontend Developer<br/><br/>
+                 <b>UNIVERSITY OF LINCOLN</b><br/>2016-2020<br/>Study Program:Electrical-Electronic in cars<br/><br/>
+                 <b>TECHNOLOGIC HIGHSCHOOL</b><br/>2012-2016<br/>Study Program:Economy`
          },
         personal_projects: {
-        title:'PERSONAL PROJECTS',
-        details: `<b>CAR BUDS</b> <br/>Everything about your car.
-                  <b>JubiliantDelivery</b><br/>Check the availability of goods shipments for the company`
+        title:'CURRENT PROJECTS',
+        details: `<b>CAR BUDS</b> <br/>Everything about your car.</br></br>
+                  <b>JUBILIANTDELIVERY</b><br/>Check the availability of goods shipments for the company`
         }
       }
     }
