@@ -1,7 +1,6 @@
 import './App.scss';
 import { Routes, Route } from "react-router-dom";
-import {Home} from './Views/Home'
-import './'
+import {Resume} from './Views/Resume'
 
 function App() {
   
@@ -10,7 +9,7 @@ function App() {
   return (
     <main className="main-app">
           <Routes>
-             <Route path="/resume/:name" element={<Home />} />
+             <Route path="/resume/:name" element={<Resume />} />
           </Routes>
     </main>
   );

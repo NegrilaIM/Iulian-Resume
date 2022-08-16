@@ -3,7 +3,7 @@ import { useEffect, useState } from "react"
 import axios from "axios"
 
 
-export const Home = function () {
+export const Resume = function () {
     
     const [data, setData] = useState({}) 
 
